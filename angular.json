@@ -24,10 +24,24 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": [],
+            "styles": [ 
+              "src/styles.css",
+             "src/assets/css/bootstrap.min.css",
+              "src/assets/css/animate.css",
+               "src/assets/css/dataTables.bootstrap4.min.css", 
+               "src/assets/plugins/fontawesome/css/fontawesome.min.css", 
+               "src/assets/plugins/fontawesome/css/all.min.css",
+                "src/assets/css/style.css" ], 
+            "scripts": ["src/assets/js/jquery-3.6.0.min.js",
+             "src/assets/js/feather.min.js", 
+             "src/assets/js/jquery.slimscroll.min.js", 
+             "src/assets/js/jquery.dataTables.min.js", 
+             "src/assets/js/dataTables.bootstrap4.min.js",
+              "src/assets/js/bootstrap.bundle.min.js", 
+              "src/assets/plugins/apexchart/apexcharts.min.js",
+               "src/assets/plugins/apexchart/chart-data.js", 
+               "src/assets/js/script.js" ],
+            
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -96,5 +110,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "dc613b1c-8562-4f11-80c1-46e1f545435d"
   }
 }
